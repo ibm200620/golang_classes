@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
-func main() { // Start the execution
-	fmt.Println("Hello, World!") // Print the message to the console
-} // This is closing statement of main function, means end the program
+func main() {
+	fmt.Println("Hello, World!")
 
-// Note
-// - Every go program must have main.go file.
-// - Every main.go file first line should be package main.
-// - The `main` function is the entry point of the program.
+	fmt.Println("Hello, World again!")
+
+	fmt.Println("Hello, World the third time!")
+
+	fmt.Println("Hello, World the fourth time!")
+}
